@@ -1,0 +1,28 @@
+<%- include("../partials/header") %>
+
+  <h1>New Cluck</h1>
+  
+  <div class="cluck-form-div">
+  <div class="cluck-form">
+
+  <form action="index" method="POST">
+
+  <textarea
+  name="content"
+  cols="50"
+  rows="10"
+  placeholder="Whatchoo cluckin' 'bout?"
+  ></textarea>
+
+  <textarea
+  name="image_url"
+  cols="50"
+  placeholder="images.com/your-image"
+  ></textarea>
+  
+  <input type="submit" value="Cluck!">
+  
+  </form>
+  
+  </div>
+<%- include("../partials/footer") %>

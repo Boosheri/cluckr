@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+/* Wild card below applies to every element unless otherwise defined after this */
+
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 7em;
+    width: auto;
+    align-items: center;
+    flex-direction: row
+
+}
+
+.nav-image {
+    display: flex;
+    max-width: 7em;
+   
+};
+
+.nav-button{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2em;
+    padding: 2em;
+}
+
+.sign-in {
+    display: flex;
+    margin: 2em;
+    padding: 2em;
+    border: 1px solid gray;
+}
+.cluck-form-div {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.cluck-form, textarea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em
+}
+
+.all-clucks {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.cluck-list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 3em;
+    padding: 5em;
+    border: 1px solid gray;
+    border-radius: 3px;
+    align-content: center
+}
+
+.avatar {
+    display: flex;
+    max-height: 4em;
+    margin: 1em
+}
+.user {
+    margin: 1em;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+}
+
+.content {
+    margin: 0 10em;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+
+
+
+.picture{
+    /* display:flex; */
+    max-height: 20em;
+    float: right;
+    
+}
+

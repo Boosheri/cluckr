@@ -1,0 +1,30 @@
+<%- include("../partials/header") %>
+
+
+<h1> Welcome to Cluckr, <%-username%>! </h1>
+
+
+<h2>Clucks:</h2>
+
+<div class="all-clucks">
+<% clucks.forEach(cluck => { %>
+
+  <div class="cluck-list">
+  <div class="user">
+  <img class="avatar" src="/images/avatar.jpg" alt="avatar">
+  <%= cluck.username %>
+  <%= cluck.created_at %>
+  
+  </div>
+  
+  <div class="content">
+  <%= cluck.content %>
+  <img class="picture"
+  src="<%= cluck.image_url %>">
+  </div>
+
+  </div>
+<% }) %>
+
+</div>
+<%- include("../partials/footer") %>
