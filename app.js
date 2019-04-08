@@ -21,8 +21,8 @@ app.use((request, response, next) => {
     const username = request.cookies.username;
     if (username) {
         response.locals.username = username;
+        next();
     }
-    next();
 });  
 
 app.get("/", (req, res) => {
